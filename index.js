@@ -33,6 +33,6 @@ const server = new ApolloServer({
 
 connectDB()
 
-server.listen().then(({ url }) => {
+server.listen({ port: process.env.PORT || 4000 }).then(({ url }) => {
     console.log(`Server running on ${url}`)
 })
