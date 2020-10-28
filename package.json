@@ -1,0 +1,37 @@
+{
+  "name": "mattu-uptask-server",
+  "version": "1.0.0",
+  "description": "gql server for mattu-uptask project",
+  "main": "index.js",
+  "scripts": {
+    "start": "node .",
+    "dev": "nodemon ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/axvargas/mattu-uptask-gql-server.git"
+  },
+  "keywords": [
+    "gql",
+    "apollo",
+    "task",
+    "mattu"
+  ],
+  "author": "Andres X. Vargas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/axvargas/mattu-uptask-gql-server/issues"
+  },
+  "homepage": "https://github.com/axvargas/mattu-uptask-gql-server#readme",
+  "dependencies": {
+    "apollo-server": "^2.18.2",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^8.2.0",
+    "graphql": "^15.3.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.10.9"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
